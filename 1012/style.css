@@ -1,0 +1,42 @@
+/* .container{
+    border:3px solid lightblue;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    
+    
+}
+.box{
+    text-align:center;
+    height:5em;
+    width:5em;
+    margin:1em;
+    background-color:gold;
+} */
+
+/* Didn't really take long about 20 minutes */
+.container{
+    
+    border-collapse: collapse;
+}
+tr:nth-child(even){
+    background-color: grey;
+}
+
+tr:nth-child(5n+1){
+    background-color:rgb(49, 83, 231);
+    color:white;
+}
+th,td{
+   padding:10px; 
+   
+}
+
+.box{
+    width:300px;
+    height:300px;
+    margin:40px;
+    background-color: magenta;
+    border-radius: 30px;
+    box-shadow: 15px 15px 20px lightgrey;
+}
