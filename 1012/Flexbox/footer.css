@@ -27,6 +27,7 @@ body {
   font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif ;
 }
 
+/* Extension for assignment */
 #one,#three{
   width:140px;
   display:flex;
